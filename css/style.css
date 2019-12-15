@@ -65,8 +65,8 @@ header .title-header .main-nav ul li .active {
 header .title-header .main-nav ul li a {
   text-decoration: none;
   text-align: center;
-  padding: 11px 32px;
-  font: 18px Arial, Helvetica, sans-serif;
+  padding: 0.7em 1.000em;
+  font: 1.1em Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #E5FFFF;
   background-color: #666c70;
@@ -337,5 +337,29 @@ form {
 
 html {
   height: 100%;
+}
+
+.download {
+  margin-top: 5vh;
+}
+
+.download button {
+  width: 50%;
+  height: 4vh;
+  background-color: #3b50a1;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3em;
+  border: none;
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.download button:hover {
+  background-color: #3b50a4ba;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 /*# sourceMappingURL=style.css.map */
